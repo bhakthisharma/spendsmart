@@ -1,0 +1,28 @@
+.expensebudget-result {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.expense-result,
+.budget-result {
+  border: 1px solid green;
+  padding: 10px 25px;
+  border-radius: 4px;
+  width: 235px;
+  background-color: #7b1fa2;
+}
+@media only screen and (max-width: 550px) {
+  .expensebudget-result {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .expense-result,
+  .budget-result {
+    border: 1px solid green;
+    padding: 6px 18px;
+    border-radius: 4px;
+    width: 166px;
+  }
+}

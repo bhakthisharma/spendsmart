@@ -3,85 +3,30 @@
   box-sizing: border-box;
   font-family: "EB Garamond", serif;
 }
+body {
+  background-color: rgb(36, 35, 35);
+}
 .container {
   display: flex;
-  border: 1px solid rgb(133, 128, 128);
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 92%;
-  margin: 50px 50px;
-  height: 100%;
+  width: 100%;
   gap: 15px;
   align-content: center;
+  color: white;
 }
-.addButton {
-  padding: 5px 12px;
-  font-size: 15px;
-}
-.balance-operations {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 40%;
-  height: 100%;
-}
-.adding-expenses {
-  border: 1px solid rgb(133, 128, 128);
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  gap: 26px;
-  padding: 30px 40px;
-  height: 270px;
-  justify-content: center;
-  border-radius: 6px;
-}
-.adding-expenses input {
-  padding: 10px 10px;
-  border-radius: 5px;
-}
-.radioButtons-expensebudget {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-}
-
-.adding-expenses button {
-  width: 120px;
-  padding: 10px 10px;
-  border-radius: 5px;
-  font-size: 14px;
-  align-content: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.expensebudget-result {
-  display: flex;
-  justify-content: space-between;
-  width: 40%;
-}
-.expense-result,
-.budget-result {
-  border: 1px solid green;
-  padding: 10px 25px;
-  border-radius: 4px;
-  width: 240px;
-}
-.transactions {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-gap: 5px;
-}
-.transaction{
-  font-size: 23px;
-  font-weight: bold;
-}
-.searchbar {
-  border: 1px solid green;
-  padding: 10px 25px;
-  border-radius: 5px;
-
+@media only screen and (max-width: 550px) {
+  body {
+    overflow: hidden;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    align-content: center;
+  }
 }

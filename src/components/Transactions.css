@@ -1,0 +1,35 @@
+.transactions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 498px;
+}
+.transaction {
+  font-size: 23px;
+  font-weight: bold;
+}
+.searchbar {
+  border: 1px solid green;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: #7b1fa2;
+}
+
+@media only screen and (max-width: 550px) {
+  .transactions {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 280px;
+  }
+  .transaction {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .searchbar {
+    border: 1px solid green;
+    padding: 6px 10px;
+    border-radius: 5px;
+    width: 250px;
+  }
+}
