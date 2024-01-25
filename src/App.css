@@ -9,10 +9,15 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 90%px;
+  width: 92%;
   margin: 50px 50px;
   height: 100%;
   gap: 15px;
+  align-content: center;
+}
+.addButton {
+  padding: 5px 12px;
+  font-size: 15px;
 }
 .balance-operations {
   display: flex;
@@ -21,31 +26,62 @@
   width: 40%;
   height: 100%;
 }
-.input-fields {
+.adding-expenses {
   border: 1px solid rgb(133, 128, 128);
   display: flex;
   flex-direction: column;
   width: 500px;
-  gap: 30px;
-  background-color: aqua;
+  gap: 26px;
   padding: 30px 40px;
-  height: 160px;
+  height: 270px;
   justify-content: center;
   border-radius: 6px;
 }
-.input-fields input {
+.adding-expenses input {
   padding: 10px 10px;
   border-radius: 5px;
 }
-.expense-budget {
+.radioButtons-expensebudget {
   display: flex;
+  gap: 30px;
   justify-content: center;
-  gap: 5px;
 }
-.dding-expenses button {
+
+.adding-expenses button {
+  width: 120px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 14px;
   align-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+}
+.expensebudget-result {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.expense-result,
+.budget-result {
+  border: 1px solid green;
+  padding: 10px 25px;
+  border-radius: 4px;
+  width: 240px;
+}
+.transactions {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+gap: 5px;
+}
+.transaction{
+  font-size: 23px;
+  font-weight: bold;
+}
+.searchbar {
+  border: 1px solid green;
+  padding: 10px 25px;
+  border-radius: 5px;
+
 }
