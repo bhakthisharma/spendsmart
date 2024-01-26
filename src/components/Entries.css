@@ -1,0 +1,106 @@
+table {
+  background-color: #7b1fa2;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 3px;
+}
+tr {
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Description,
+.Amount {
+  width: 500px;
+  font-size: 16px;
+}
+thead {
+  padding: 5px;
+  color: #7b1fa2;
+  background-color: white;
+}
+thead tr {
+  font-weight: bolder;
+}
+tbody tr {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  padding: 5px 5px;
+}
+
+tbody tr:hover {
+  background-color: #424242;
+}
+.button-remove {
+  display: flex;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 0 auto;
+  font-weight: bold;
+  background-color: #7b1fa2;
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  color: white;
+}
+.button-remove:hover {
+  transform: scale(1.06);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+  table {
+    background-color: #7b1fa2;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border-radius: 3px;
+  }
+  tr {
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .Description,
+  .Amount {
+    width: 250px;
+  }
+  thead {
+    background-color: #263238;
+    padding: 5px;
+  }
+  thead tr {
+    font-weight: bolder;
+  }
+  tbody tr {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    padding: 5px 5px;
+  }
+
+  tbody tr:hover {
+    background-color: #424242;
+  }
+  .button-remove {
+    display: flex;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0 auto;
+    font-weight: bold;
+    background-color: #7b1fa2;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    color: white;
+  }
+  .button-remove:hover {
+    transform: scale(1.06);
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+  }
+}

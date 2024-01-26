@@ -15,6 +15,11 @@
   color: white;
   border-radius: 5px;
 }
+.addButton:hover{
+  transform: scale(1.06);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
 .balance-operations {
   display: flex;
   justify-content: space-between;

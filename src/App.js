@@ -3,6 +3,7 @@ import Addtransaction from "./components/Addtransaction";
 import Header from "./components/Header";
 import Expensebudgetdetails from "./components/Expensebudgetdetails";
 import Transactions from "./components/Transactions";
+import Entries from "./components/Entries";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Addtransaction></Addtransaction>
       <Expensebudgetdetails></Expensebudgetdetails>
       <Transactions></Transactions>
+      <Entries></Entries>
     </div>
   );
 }

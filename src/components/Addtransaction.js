@@ -1,11 +1,32 @@
 import React from "react";
 import "./Addtransaction.css";
+import Entries from "./Entries";
+import { useState } from "react";
 
 const Addtransaction = () => {
+  const [Amount, setAmount] = useState(0);
+  const [Description, setDescription] = useState(0);
+
+  function getAmount(amount) {
+    console.log(amount.target.value);
+  }
+  function getDescription(description) {
+    console.log(description.target.value);
+  }
   return (
     <div className="adding-expenses">
-      <input type="number" placeholder=" Enter Amount" />
-      <input type="text" placeholder="Enter Details" />
+      <input
+        className="enteredAmount"
+        type="number"
+        placeholder=" Enter Amount"
+        onChange={getAmount}
+      />
+      <input
+        className="enteredDetails"
+        type="text"
+        placeholder="Enter Details"
+        onChange={getDescription}
+      />
       <div className="radioButtons-expensebudget">
         <div className="radioButton-expense">
           <input

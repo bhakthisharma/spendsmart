@@ -5,7 +5,7 @@ const Transactions = () => {
   return (
     <div className="transactions">
       <p className="transaction">Transactions</p>
-      <p className="searchbar">Search here...</p>
+      <input id="searchbar" type="text" placeholder="Search.."></input>
     </div>
   );
 };
